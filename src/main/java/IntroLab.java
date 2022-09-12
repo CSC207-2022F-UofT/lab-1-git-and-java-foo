@@ -44,6 +44,9 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
+    public static String linpete3(){
+        return printLabMessage("", "Peter", true, "");
+    }
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -59,7 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(linpete3());
 
     }
 
