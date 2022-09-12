@@ -46,6 +46,13 @@ public class IntroLab {
     }
 
     /**
+     * My own method.
+     */
+    public static String zhujieru() {
+        return printLabMessage("Hello", "Jerry", true, "");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -63,6 +70,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(zhujieru());
         System.out.println(guiyijie());
     }
 
