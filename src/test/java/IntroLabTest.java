@@ -32,7 +32,14 @@ public class IntroLabTest {
         String actual = IntroLab.zhujieru();
         assertEquals(expected, actual);
     }
-
+    
+    @Test(timeout = 100)
+    public void testStudent(){
+        String expected = "! My name is Peter! I like cats more than dogs! ";
+        String actual = IntroLab.linpete3();
+        assertEquals(expected, actual);
+    }
+    
     @Test
     public void testGuiyijie() {
         String expected = "Meow! My name is Azalea! " +
