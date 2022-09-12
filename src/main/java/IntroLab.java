@@ -40,6 +40,17 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String guiyijie()
+    {
+        return printLabMessage("Meow", "Azalea", true, ">_<");
+    }
+
+    /**
+     * My own method.
+     */
+    public static String zhujieru() {
+        return printLabMessage("Hello", "Jerry", true, "");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -63,9 +74,9 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
         System.out.println(linpete3());
-
+        System.out.println(zhujieru());
+        System.out.println(guiyijie());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
-
 }
